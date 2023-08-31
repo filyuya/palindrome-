@@ -1,0 +1,6 @@
+def palindrome(string):
+    return string == string[::-1]
+
+a = input('Введите слово ').lower()
+
+print(palindrome(a))
